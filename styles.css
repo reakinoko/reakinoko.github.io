@@ -15,12 +15,12 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    linear-gradient(180deg, rgba(79, 34, 124, 0.45), rgba(9, 6, 15, 0) 360px),
-    #09060f;
+    linear-gradient(180deg, rgba(31, 84, 92, 0.42), rgba(9, 8, 12, 0) 360px),
+    #09080c;
 }
 
 a {
-  color: #d9c6ff;
+  color: #9de7df;
 }
 
 .shell {
@@ -35,7 +35,7 @@ a {
 
 .eyebrow {
   margin: 0 0 10px;
-  color: #c9aeff;
+  color: #9de7df;
   font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -51,9 +51,52 @@ h1 {
 .hero p:not(.eyebrow) {
   max-width: 620px;
   margin: 22px 0 0;
-  color: #e6d7ff;
+  color: #dceeed;
   font-size: 1.1rem;
   line-height: 1.7;
+}
+
+.apps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.app-card {
+  border: 1px solid #315761;
+  border-radius: 8px;
+  padding: 20px;
+  background: #121519;
+}
+
+.app-card h2 {
+  margin: 6px 0 10px;
+  font-size: 1.35rem;
+}
+
+.app-card p {
+  margin: 0;
+}
+
+.app-platform {
+  color: #f0c36a;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.app-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.app-links a {
+  color: #9de7df;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .links {
@@ -64,11 +107,11 @@ h1 {
 
 .links a {
   display: block;
-  border: 1px solid #5f4395;
+  border: 1px solid #315761;
   border-radius: 8px;
   padding: 16px;
-  background: #17111f;
-  color: #f5ecff;
+  background: #121519;
+  color: #eef8f6;
   font-weight: 700;
   text-decoration: none;
 }
@@ -82,7 +125,7 @@ h1 {
 .back-link {
   display: inline-block;
   margin-bottom: 28px;
-  color: #c9aeff;
+  color: #9de7df;
   font-weight: 700;
   text-decoration: none;
 }
@@ -93,7 +136,7 @@ h1 {
 
 .updated {
   margin: 14px 0 36px;
-  color: #bda4f2;
+  color: #f0c36a;
 }
 
 h2 {
